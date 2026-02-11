@@ -10,7 +10,6 @@ public class Main {
             int n1 = getInt();
             int n2 = getInt();
             char operation = getOperation();
-
             try {
                 int result = Calculator.calculate(n1, n2, operation);
                 System.out.println("Результат: " + result);
